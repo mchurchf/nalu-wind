@@ -101,7 +101,7 @@ void compute_fluxes
     }
     else
     {
-      L = -(Tref * std::pow(frictionVelocity,3))/(kappa * g * temperatureFlux);
+      L = -(Tp * std::pow(frictionVelocity,3))/(kappa * g * temperatureFlux);
     }
 
     // Recompute Psi_h and Psi_m.
